@@ -2,6 +2,8 @@ import time
 import calendar
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import requests
 import datetime
 
@@ -79,17 +81,14 @@ def post_message_by_line(message):
 
 
 # googledriver読み込み
-#driver = webdriver.Chrome('chromedriver.exe')
+driver = webdriver.Chrome('chromedriver.exe')
 
-# herokuのchromedriverのPATHを指定
-driver_path = '/app/.chromedriver/bin/chromedriver'
-options = webdriver.ChromeOptions()
-options.add_argument('--headless')
-#※headlessにしている
-driver = webdriver.Chrome(options=options, executable_path=driver_path)
+
 
 # サイトへのアクセス
 driver.get('https://reserve.tokyodisneyresort.jp/hotel/search/')
+# ページ上のすべての要素が読み込まれるまで待機（15秒でタイムアウト判定）
+WebDriverWait(driver, 15).until(EC.presence_of_all_elements_located)
 # 部屋選択画面へ移動
 driver.find_element_by_class_name('dialogClose').click()
 driver.find_element_by_id('js-callHotelSearch').click()

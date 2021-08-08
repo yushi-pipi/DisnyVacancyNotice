@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 import requests
 import datetime
 
@@ -12,7 +13,7 @@ def select_month(year: int, month: int):
 
     date = str(year) + ',' + str(month)
     Select(driver.find_element_by_id('boxCalendarSelect')).select_by_value(date)
-    time.sleep(2)
+    driver.implicitly_wait(20)
 
 
 def get_vacancy_status(driver, year: int, month: int):
@@ -42,7 +43,7 @@ def select_room(driver, room):
         select = Select(driver.find_element_by_id('adultNumVacancy'))
         select.select_by_index(2)
         driver.find_element_by_css_selector('.next.js-conditionHide').click()
-    time.sleep(2)
+    driver.implicitly_wait(20)
 
 
 def create_message(room_status):
@@ -93,12 +94,14 @@ driver = webdriver.Chrome(options=options, executable_path=driver_path)
 # サイトへのアクセス
 driver.get('https://reserve.tokyodisneyresort.jp/hotel/search/')
 # ページ上のすべての要素が読み込まれるまで待機（15秒でタイムアウト判定）
-WebDriverWait(driver, 15).until(EC.presence_of_all_elements_located)
+#WebDriverWait(driver, 15).until(EC.presence_of_all_elements_located)
+driver.implicitly_wait(20)
 # 部屋選択画面へ移動
 driver.find_element_by_class_name('dialogClose').click()
+WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='username']"))).send_keys("Artem")
 driver.find_element_by_id('js-callHotelSearch').click()
 driver.find_element_by_xpath("//img[@src='/cgp/images/jp/pc/btn/btn_modal_hotel_02.png']").click()
-time.sleep(3)
+driver.implicitly_wait(20)
 
 # 　部屋リストを作成
 with open('roomname.txt', 'r', encoding='utf-8') as f:

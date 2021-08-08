@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be2974e9-398f-4fef-8bff-a80d17ac4949" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1vvhRsOX5unuWneRjD58UOuzMIQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yushi\PycharmProjects\disney" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.get_vacancy_room">
+    <configuration name="disney" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="disney" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\yushi\busines\similar-image-detection_first\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_vacancy_room" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="disney" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_vacancy_room.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="disney" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\yushi\PycharmProjects\disney\get_vacancy_room.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="disney" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.disney" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.get_vacancy_room" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.get_vacancy_room" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be2974e9-398f-4fef-8bff-a80d17ac4949" name="Default Changelist" comment="" />
+      <created>1627448464945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627448464945</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2542" y="303" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627456333174">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2542" y="303" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1627456333174" />
+    <state x="2868" y="403" key="FileChooserDialogImpl" timestamp="1627452178008">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2868" y="403" key="FileChooserDialogImpl/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1627452178008" />
+    <state width="1817" height="424" key="GridCell.Tab.0.bottom" timestamp="1628344586432">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1817" height="424" key="GridCell.Tab.0.bottom/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1628344586432" />
+    <state width="1817" height="424" key="GridCell.Tab.0.center" timestamp="1628344586432">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1817" height="424" key="GridCell.Tab.0.center/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1628344586432" />
+    <state width="1817" height="424" key="GridCell.Tab.0.left" timestamp="1628344586432">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1817" height="424" key="GridCell.Tab.0.left/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1628344586432" />
+    <state width="1817" height="424" key="GridCell.Tab.0.right" timestamp="1628344586432">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1817" height="424" key="GridCell.Tab.0.right/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1628344586432" />
+    <state width="1837" height="197" key="GridCell.Tab.1.bottom" timestamp="1627827720725">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1837" height="197" key="GridCell.Tab.1.bottom/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1627827720725" />
+    <state width="1837" height="197" key="GridCell.Tab.1.center" timestamp="1627827720725">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1837" height="197" key="GridCell.Tab.1.center/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1627827720725" />
+    <state width="1837" height="197" key="GridCell.Tab.1.left" timestamp="1627827720725">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1837" height="197" key="GridCell.Tab.1.left/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1627827720725" />
+    <state width="1837" height="197" key="GridCell.Tab.1.right" timestamp="1627827720725">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1837" height="197" key="GridCell.Tab.1.right/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1627827720725" />
+    <state x="624" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1628413460098">
+      <screen x="0" y="0" width="1855" height="1080" />
+    </state>
+    <state x="624" y="362" key="com.intellij.ide.util.TipDialog/-1920.0.1855.1080/0.1080.1858.1080/0.0.1855.1080@0.0.1855.1080" timestamp="1628413460098" />
+    <state x="624" y="362" key="com.intellij.ide.util.TipDialog/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@0.0.1855.1080" timestamp="1627448473055" />
+    <state x="2545" y="362" key="com.intellij.ide.util.TipDialog/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1628315920843" />
+    <state x="2483" y="93" width="732" height="894" key="find.popup" timestamp="1627803532019">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2483" y="93" width="732" height="894" key="find.popup/0.0.1855.1080/0.1080.1218.720/1920.0.1858.1080@1920.0.1858.1080" timestamp="1627803532019" />
+  </component>
+</project>

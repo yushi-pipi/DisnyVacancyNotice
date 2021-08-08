@@ -79,7 +79,15 @@ def post_message_by_line(message):
 
 
 # googledriver読み込み
-driver = webdriver.Chrome('chromedriver.exe')
+#driver = webdriver.Chrome('chromedriver.exe')
+
+# herokuのchromedriverのPATHを指定
+driver_path = '/app/.chromedriver/bin/chromedriver'
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')
+#※headlessにしている
+driver = webdriver.Chrome(options=options, executable_path=driver_path)
+
 # サイトへのアクセス
 driver.get('https://reserve.tokyodisneyresort.jp/hotel/search/')
 # 部屋選択画面へ移動

@@ -79,7 +79,7 @@ def post_message_by_line(message):
 
 
 # googledriver読み込み
-driver = webdriver.Chrome('C:\Program Files\chromedriver.exe')
+driver = webdriver.Chrome('chromedriver.exe')
 # サイトへのアクセス
 driver.get('https://reserve.tokyodisneyresort.jp/hotel/search/')
 # 部屋選択画面へ移動
